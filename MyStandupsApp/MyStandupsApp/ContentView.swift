@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  StandupsApp
+//  MyStandupsApp
 //
 //  Created by Ness on 07/12/24.
 //

@@ -1,13 +1,13 @@
 //
-//  StandupsAppUITestsLaunchTests.swift
-//  StandupsAppUITests
+//  MyStandupsAppUITestsLaunchTests.swift
+//  MyStandupsAppUITests
 //
 //  Created by Ness on 07/12/24.
 //
 
 import XCTest
 
-final class StandupsAppUITestsLaunchTests: XCTestCase {
+final class MyStandupsAppUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

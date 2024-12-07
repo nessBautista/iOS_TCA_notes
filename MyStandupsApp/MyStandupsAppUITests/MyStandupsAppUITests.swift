@@ -1,13 +1,13 @@
 //
-//  StandupsAppUITests.swift
-//  StandupsAppUITests
+//  MyStandupsAppUITests.swift
+//  MyStandupsAppUITests
 //
 //  Created by Ness on 07/12/24.
 //
 
 import XCTest
 
-final class StandupsAppUITests: XCTestCase {
+final class MyStandupsAppUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
