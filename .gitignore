@@ -63,3 +63,7 @@ fastlane/test_output
 
 # Ignore user-specific data
 *.xcuserdata
+
+
+# scripts
+flatten_directory.sh

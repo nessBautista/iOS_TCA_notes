@@ -10,43 +10,14 @@
 		CCA53BE02D05099F00381D77 /* MyStandupsFeature in Frameworks */ = {isa = PBXBuildFile; productRef = CCA53BDF2D05099F00381D77 /* MyStandupsFeature */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		CCA53BC22D0507A100381D77 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CCA53BA92D0507A000381D77 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CCA53BB02D0507A000381D77;
-			remoteInfo = MyStandupsApp;
-		};
-		CCA53BCC2D0507A100381D77 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CCA53BA92D0507A000381D77 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CCA53BB02D0507A000381D77;
-			remoteInfo = MyStandupsApp;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		CCA53BB12D0507A000381D77 /* MyStandupsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyStandupsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCA53BC12D0507A100381D77 /* MyStandupsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyStandupsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCA53BCB2D0507A100381D77 /* MyStandupsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyStandupsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		CCA53BB32D0507A000381D77 /* MyStandupsApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MyStandupsApp;
-			sourceTree = "<group>";
-		};
-		CCA53BC42D0507A100381D77 /* MyStandupsAppTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MyStandupsAppTests;
-			sourceTree = "<group>";
-		};
-		CCA53BCE2D0507A100381D77 /* MyStandupsAppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MyStandupsAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -60,20 +31,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CCA53BBE2D0507A100381D77 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CCA53BC82D0507A100381D77 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,8 +38,6 @@
 			isa = PBXGroup;
 			children = (
 				CCA53BB32D0507A000381D77 /* MyStandupsApp */,
-				CCA53BC42D0507A100381D77 /* MyStandupsAppTests */,
-				CCA53BCE2D0507A100381D77 /* MyStandupsAppUITests */,
 				CCA53BDE2D05099F00381D77 /* Frameworks */,
 				CCA53BB22D0507A000381D77 /* Products */,
 			);
@@ -92,8 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				CCA53BB12D0507A000381D77 /* MyStandupsApp.app */,
-				CCA53BC12D0507A100381D77 /* MyStandupsAppTests.xctest */,
-				CCA53BCB2D0507A100381D77 /* MyStandupsAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,52 +84,6 @@
 			productReference = CCA53BB12D0507A000381D77 /* MyStandupsApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CCA53BC02D0507A100381D77 /* MyStandupsAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CCA53BD82D0507A100381D77 /* Build configuration list for PBXNativeTarget "MyStandupsAppTests" */;
-			buildPhases = (
-				CCA53BBD2D0507A100381D77 /* Sources */,
-				CCA53BBE2D0507A100381D77 /* Frameworks */,
-				CCA53BBF2D0507A100381D77 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CCA53BC32D0507A100381D77 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				CCA53BC42D0507A100381D77 /* MyStandupsAppTests */,
-			);
-			name = MyStandupsAppTests;
-			packageProductDependencies = (
-			);
-			productName = MyStandupsAppTests;
-			productReference = CCA53BC12D0507A100381D77 /* MyStandupsAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		CCA53BCA2D0507A100381D77 /* MyStandupsAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CCA53BDB2D0507A100381D77 /* Build configuration list for PBXNativeTarget "MyStandupsAppUITests" */;
-			buildPhases = (
-				CCA53BC72D0507A100381D77 /* Sources */,
-				CCA53BC82D0507A100381D77 /* Frameworks */,
-				CCA53BC92D0507A100381D77 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CCA53BCD2D0507A100381D77 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				CCA53BCE2D0507A100381D77 /* MyStandupsAppUITests */,
-			);
-			name = MyStandupsAppUITests;
-			packageProductDependencies = (
-			);
-			productName = MyStandupsAppUITests;
-			productReference = CCA53BCB2D0507A100381D77 /* MyStandupsAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -189,14 +96,6 @@
 				TargetAttributes = {
 					CCA53BB02D0507A000381D77 = {
 						CreatedOnToolsVersion = 16.1;
-					};
-					CCA53BC02D0507A100381D77 = {
-						CreatedOnToolsVersion = 16.1;
-						TestTargetID = CCA53BB02D0507A000381D77;
-					};
-					CCA53BCA2D0507A100381D77 = {
-						CreatedOnToolsVersion = 16.1;
-						TestTargetID = CCA53BB02D0507A000381D77;
 					};
 				};
 			};
@@ -215,28 +114,12 @@
 			projectRoot = "";
 			targets = (
 				CCA53BB02D0507A000381D77 /* MyStandupsApp */,
-				CCA53BC02D0507A100381D77 /* MyStandupsAppTests */,
-				CCA53BCA2D0507A100381D77 /* MyStandupsAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		CCA53BAF2D0507A000381D77 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CCA53BBF2D0507A100381D77 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CCA53BC92D0507A100381D77 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,34 +136,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CCA53BBD2D0507A100381D77 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CCA53BC72D0507A100381D77 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CCA53BC32D0507A100381D77 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CCA53BB02D0507A000381D77 /* MyStandupsApp */;
-			targetProxy = CCA53BC22D0507A100381D77 /* PBXContainerItemProxy */;
-		};
-		CCA53BCD2D0507A100381D77 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CCA53BB02D0507A000381D77 /* MyStandupsApp */;
-			targetProxy = CCA53BCC2D0507A100381D77 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		CCA53BD32D0507A100381D77 /* Debug */ = {
@@ -426,6 +282,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ness.tca.mystandups.MyStandupsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -455,80 +312,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ness.tca.mystandups.MyStandupsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		CCA53BD92D0507A100381D77 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GQGZN6D9K9;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ness.tca.mystandups.MyStandupsAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyStandupsApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyStandupsApp";
-			};
-			name = Debug;
-		};
-		CCA53BDA2D0507A100381D77 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GQGZN6D9K9;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ness.tca.mystandups.MyStandupsAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyStandupsApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyStandupsApp";
-			};
-			name = Release;
-		};
-		CCA53BDC2D0507A100381D77 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GQGZN6D9K9;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ness.tca.mystandups.MyStandupsAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MyStandupsApp;
-			};
-			name = Debug;
-		};
-		CCA53BDD2D0507A100381D77 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GQGZN6D9K9;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ness.tca.mystandups.MyStandupsAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MyStandupsApp;
 			};
 			name = Release;
 		};
@@ -549,24 +335,6 @@
 			buildConfigurations = (
 				CCA53BD62D0507A100381D77 /* Debug */,
 				CCA53BD72D0507A100381D77 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CCA53BD82D0507A100381D77 /* Build configuration list for PBXNativeTarget "MyStandupsAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CCA53BD92D0507A100381D77 /* Debug */,
-				CCA53BDA2D0507A100381D77 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CCA53BDB2D0507A100381D77 /* Build configuration list for PBXNativeTarget "MyStandupsAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CCA53BDC2D0507A100381D77 /* Debug */,
-				CCA53BDD2D0507A100381D77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

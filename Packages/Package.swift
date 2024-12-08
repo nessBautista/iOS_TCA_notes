@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "Main",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v18)
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
@@ -16,12 +16,53 @@ let package = Package(
         .package(url: "https://github.com/pointfreeco/swift-composable-architecture", from: "1.0.0"),
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
+        //Top lelvel Targets
         .target(
             name: "MyStandupsFeature",
             dependencies: [
-                .product(name: "ComposableArchitecture", package: "swift-composable-architecture")
+                .product(name: "ComposableArchitecture", package: "swift-composable-architecture"),
+                "StandupsListFeature",
+                "StandupFormFeature"
+            ]
+        ),
+        //Features
+        .target(
+            name: "StandupsListFeature",
+            dependencies: [
+                "StandupModels",
+                "StandupFormFeature",
+                .product(name: "ComposableArchitecture", package: "swift-composable-architecture"),
+            ]
+        ),
+        .target(
+            name: "StandupFormFeature",
+            dependencies: [
+                "StandupModels",
+                .product(name: "ComposableArchitecture", package: "swift-composable-architecture"),
+            ]
+        ),
+        // Core Modules
+        .target(
+            name: "StandupModels",
+            dependencies: []
+        ),
+        // Tests
+        .testTarget(
+            name: "MyStandupsFeatureTests",
+            dependencies: [
+                "MyStandupsFeature"
+            ]
+        ),
+        .testTarget(
+            name: "StandupFormFeatureTests",
+            dependencies: [
+                "StandupFormFeature"
+            ]
+        ),
+        .testTarget(
+            name: "StandupsListFeatureTests",
+            dependencies: [
+                "StandupsListFeature"
             ]
         ),
     ]

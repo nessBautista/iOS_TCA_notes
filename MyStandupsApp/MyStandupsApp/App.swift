@@ -11,7 +11,13 @@ import MyStandupsFeature
 struct MyStandupsAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            VStack {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundStyle(.tint)
+                Text("Hello, world!")
+            }
+            .padding()
         }
     }
 }
